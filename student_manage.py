@@ -14,16 +14,16 @@ def verifier():
     if not student_name.get():
         t1.insert(END,"<>Student_name is required<>\n")
         a=1
-    if not roll_no.get():
+    if not school_id.get():
         t1.insert(END,"<>School_Id is required<>\n")
         b=1
-    if not branch.get():
+    if not course.get():
         t1.insert(END,"<>Course is required<>\n")
         c=1
-    if not phone.get():
+    if not year_level.get():
         t1.insert(END,"<>Year_Level is requrired<>\n")
         d=1
-    if not father.get():
+    if not gender.get():
         t1.insert(END,"<>Gender is required<>\n")
         e=1
     if a==1 or b==1 or c==1 or d==1 or e==1:
